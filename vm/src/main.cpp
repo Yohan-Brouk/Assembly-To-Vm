@@ -19,11 +19,8 @@ int main(int argc, char *argv[]){
 
         for (size_t i = 0; i < buffer.size(); i++) {
            std::cout << std::hex << (int)buffer[i] << std::endl;
-            
-
         }
 
-        verifyBinary(buffer);
     }
 
     else{
