@@ -2,7 +2,7 @@ PUSH_CONST 4; // Ceci est un commentaire
 STORE_VAR 0;
 PUSH_CONST 3;
 STORE_VAR 1;
-
+// commentaire test
 LOAD_VAR 0;
 LOAD_VAR 1;
 
