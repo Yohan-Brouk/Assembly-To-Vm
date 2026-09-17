@@ -1,0 +1,14 @@
+#pragma once
+#include <cstdint>
+
+enum class Opcode : uint8_t {
+    PUSH_CONST = 1,
+    STORE_VAR = 2,
+    LOAD_VAR = 3,
+    ADD = 4,
+    SUB = 5,
+    MUL = 6,
+    DIV = 7,
+    PRINT = 8,
+    HALT = 9
+};
